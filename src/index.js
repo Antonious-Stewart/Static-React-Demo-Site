@@ -5,6 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import "../node_modules/reset-css/reset.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "jquery/dist/jquery.min.js";
 
 ReactDOM.render(
   <React.StrictMode>

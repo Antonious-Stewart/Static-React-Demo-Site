@@ -1,18 +1,19 @@
 import "./App.scss";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Header } from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header"></div>
-      <Router>
+    <Router>
+      <div className="App">
+        <Header />
         <Switch>
           <Route />
         </Switch>
-        <Footer />
-      </Router>
-    </div>
+      </div>
+      <Footer />
+    </Router>
   );
 }
 

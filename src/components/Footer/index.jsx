@@ -7,7 +7,7 @@ const Footer = () => {
     <footer id="global-footer" className="global-footer">
       <div className="global-footer-layout">
         <UpperFooter />
-        <hr className=" global-footer__separator" />
+        <hr className="global-footer__separator" />
         <LowerFooter />
       </div>
     </footer>

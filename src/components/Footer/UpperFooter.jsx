@@ -3,8 +3,8 @@ export const UpperFooter = () => {
   return (
     <div className="global-footer__container">
       <nav className="global-footer-info-links">
-        <ul className="row global-footer-info-links__list">
-          <li className="md-col-3 global-footer-info-links__list-item">
+        <ul className="global-footer-info-links__list">
+          <li className="global-footer-info-links__list-item">
             <ul className="global-footer-sublist">
               <li className="global-footer-sublist__item-title">Lorem ipsum</li>
               <li>Lorem ipsum dolor sit amet.</li>
@@ -12,7 +12,7 @@ export const UpperFooter = () => {
               <li>Lorem ipsum dolor sit amet.</li>
             </ul>
           </li>
-          <li className="md-col-3 global-footer-info-links__list-item">
+          <li className="global-footer-info-links__list-item">
             <ul className="global-footer-sublist">
               <li className="global-footer-sublist__item-title">Lorem ipsum</li>
               <li>Lorem ipsum dolor sit amet.</li>
@@ -20,11 +20,9 @@ export const UpperFooter = () => {
               <li>Lorem ipsum dolor sit amet.</li>
             </ul>
           </li>
-          <li className="md-col-3 global-footer-info-links__list-item">
+          <li className="global-footer-info-links__list-item">
             <ul className="global-footer-sublist">
-              <li className="global-footer-sublist__item-title">
-                Lorem ipsum .
-              </li>
+              <li className="global-footer-sublist__item-title">Lorem ipsum</li>
               <li>Lorem ipsum dolor sit amet.</li>
               <li>Lorem ipsum dolor sit amet.</li>
               <li>Lorem ipsum dolor sit amet.</li>
@@ -40,6 +38,7 @@ export const UpperFooter = () => {
             Lorem ipsum dolor sit.
           </li>
         </ul>
+        <hr className="global-footer__separator mb-3 is-hidden-desktop" />
       </div>
     </div>
   );
