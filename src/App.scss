@@ -197,3 +197,33 @@ a.navbar-brand {
     }
   }
 }
+// Dropdown menu styles
+.dropdown-menu {
+  height: 50rem;
+  width: 90rem;
+  right: 0px;
+  box-shadow: 0 0 4px rgba(rgb(158, 156, 156), 0.4);
+}
+//override dropdown position
+.dropdown {
+  position: unset !important;
+}
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: gray;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
