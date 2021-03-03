@@ -1,15 +1,25 @@
 import "./App.scss";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import { Header } from "./components/Header";
+import { Navigation } from "./components/Navigation";
+import { Home } from "./Containers/Home/Index";
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
+      <Navigation />
+      <div className='App'>
         <Switch>
-          <Route />
+          <Route exact={true} path='/'>
+            <Redirect to='Home' />
+          </Route>
+          <Route path='/Home' component={Home} />
         </Switch>
       </div>
       <Footer />

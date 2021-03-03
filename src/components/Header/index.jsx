@@ -1,10 +1,10 @@
 import React from "react";
-import { Navigation } from "./Navigation";
+import { HeaderContent } from "./HeaderContent";
 
 export const Header = () => {
   return (
-    <header>
-      <Navigation />
+    <header style={{ position: "relative", height: "100vh" }}>
+      <HeaderContent />
     </header>
   );
 };
