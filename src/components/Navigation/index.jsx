@@ -32,47 +32,43 @@ export const Navigation = () => {
       >
         <ul className='navbar-nav' style={{ fontSize: "1.7rem" }}>
           <li className='nav-item'>
-            <NavLink className='nav-Navlink' to='/Home'>
+            <NavLink className='nav-link' to='/Home'>
               Home
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className='nav-Navlink' to='/Shop'>
+            <NavLink className='nav-link' to='/Shop'>
               Shop
             </NavLink>
           </li>
           <li className='nav-item dropdown'>
-            <NavLink
-              className='nav-Navlink '
-              to='#'
-              data-toggle='dropdown-women'
-            >
+            <NavLink className='nav-link ' to='#' data-toggle='dropdown-women'>
               Women
             </NavLink>
             <WomenDropDown />
           </li>
           <li className='nav-item dropdown'>
-            <NavLink className='nav-Navlink' data-toggle='dropdown-men' to='#'>
+            <NavLink className='nav-link' data-toggle='dropdown-men' to='#'>
               Men
             </NavLink>
             <MenDropdown />
           </li>
 
           <li className='nav-item'>
-            <div className='nav-Navlink'>Search</div>
+            <div className='nav-link'>Search</div>
           </li>
           <li className='nav-item'>
-            <NavLink className='nav-Navlink' to='/Cart'>
+            <NavLink className='nav-link' to='/Cart'>
               Cart
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className='nav-Navlink' to='#'>
+            <NavLink className='nav-link' to='#'>
               Account
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink className='nav-Navlink' to='#'>
+            <NavLink className='nav-link' to='#'>
               Settings
             </NavLink>
           </li>
